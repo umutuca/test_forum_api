@@ -11,6 +11,9 @@ public class UserDTO {
         this.username = username;
         this.email = email;
     }
+    public UserDTO() {
+        // Krävs av Jackson för att kunna serialisera/deserialize objektet
+    }
 
     // Getters och Setters
     public Long getId() {

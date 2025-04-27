@@ -8,6 +8,7 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.example</groupId>
 	<artifactId>forum_api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -92,3 +93,4 @@
 	</build>
 
 </project>
+

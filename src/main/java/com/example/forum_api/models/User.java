@@ -27,7 +27,7 @@ public class User {
     @Column(nullable = false)
     private String password; // Skapa fält för lösenord (bör hashas vid användning)
 
-    @Column(nullable = false, updatable = false)
+    @Column(updatable = false)
     private LocalDateTime createdAt;
 
     // Automatiskt sätta createdAt vid skapelse
